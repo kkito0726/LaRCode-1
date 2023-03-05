@@ -20,4 +20,5 @@ for p in S:
         answer.append("o")
     else:
         answer.append("x")
-print(answer)
+answer2 = "".join(answer)
+print(answer2)
