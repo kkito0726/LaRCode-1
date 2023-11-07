@@ -6,6 +6,8 @@ A問題
 '''
 #made branch
 # TODO: 入力を受け取る
-
-
+N = int(input())
+nums = [list(map(int, input().split())) for _ in range(N)]
 # TODO: 期待する出力になるようにコードを書く
+for i in range(N):
+    print(nums[i][0]+nums[i][1])
