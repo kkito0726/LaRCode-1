@@ -9,3 +9,19 @@ A問題
 
 
 # TODO: 期待する出力になるようにコードを書く
+
+N,M = map(int, input().split())
+tensu = list(map(int, input().split()))
+mondaisu = list(map(int, input().split()))
+
+# print(N,M)
+# print(tensu)
+# print(mondaisu)
+
+score = 0
+
+for i in mondaisu:
+    score += tensu[i-1]
+print(score)
+
+
