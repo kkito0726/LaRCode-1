@@ -7,5 +7,17 @@ A問題
 
 # TODO: 入力を受け取る
 
+N,M = map(int, input().split())
+tensu = list(map(int, input().split()))
+mondaisu = list(map(int,input().split()))
+# print(N,M)
+# print(tensu)
+# print(mondaisu)
+
+score = 0
+for i in mondaisu:
+    score += tensu[i-1]
+print(score)
+
 
 # TODO: 期待する出力になるようにコードを書く
