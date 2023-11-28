@@ -6,6 +6,29 @@ A問題
 '''
 
 # TODO: 入力を受け取る
+N,K = map(int, input().split())
+S = input()
+
+# print(N,K)
+# print(S)
 
 
-# TODO: 期待する出力になるようにコードを書く
+# TODO: 期待する出力になるようにコードを書  
+
+
+T = []
+
+for i in range(N):
+    if K > 0 and S[i] == 'o':
+        K -= 1
+        T.append('o')
+
+    else:
+        T.append('x')
+
+print(''.join(T))
+
+
+    
+
+
