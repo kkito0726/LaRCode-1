@@ -17,4 +17,3 @@ a = 0
 for i in range(b):
     a += num_list[0][num_list[1][i]-1]
 print(a)
-
