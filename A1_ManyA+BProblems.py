@@ -6,12 +6,11 @@ A問題
 '''
 
 # TODO: 入力を受け取る
-
-
-n = int(input())
+n = int(input())  # nはint型
 num_list = []
 for i in range(n):
     num_list.append(list(map(int,input().split())))
+
 
 # TODO: 期待する出力になるようにコードを書く
 for num in num_list:
